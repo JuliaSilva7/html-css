@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture - Adaptando imagens a diferentes dispositivos</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-m.png" type="image/png">
+        <img src="img/img-g.png" alt="Imagem grande">
+    </picture>
+
+    <audio preload="none" controls loop>
+        <source src="midia/bailando_viento.mp3" type="audio/mpeg">
+        <source src="midia/bailando_viento.ogg" type="audio/ogg">
+        <source src="midia/bailando_viento.wav" type="audio/wav">
+        <source src="midia/masquerade.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+    </audio>
+</body>
+</html>

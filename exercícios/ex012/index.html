@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <h1>Inserir videos localmente</h1>
+    <video src="media/gato2.mp4" autoplay muted controls width="800px"></video>
+    <video src="media/gato2.mkv"controls width="800px"></video>
+    <video src="media/gato2.webm" controls width="800px"></video>
+
+    <video width="800px" poster="img/gato.jpg" controls>
+        <source src="media/gato2.mp4" type="video/mp4">
+        <source src="media/gato2.mkv" type="video/mkv">
+        <source src="media/gato2.webm" type="video/webm">
+        <p>Seu navegador não suporta vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeo do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=jTYwauMIW2qjjExW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

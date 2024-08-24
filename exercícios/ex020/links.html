@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: none;
+        }
+        ul{
+            list-style: square;
+        }
+        a:hover{
+            color: yellowgreen;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        a:active{
+            color: darkcyan;
+        }
+        a:visited{
+            color: rgb(252, 69, 2);
+        }
+        a::after{
+            content: ' [Link] <==';
+            font-weight: bold;
+            color: black;
+        }
+        a::before{
+            content: ' ==> ';
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://pt.stackoverflow.com/questions/424667/como-tirar-esse-pontos">Github</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Curso em vídeo</a></li>
+    </ul>
+</body>
+</html>

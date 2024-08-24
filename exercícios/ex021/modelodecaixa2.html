@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(44, 43, 43);
+            margin: 0;
+            color: white;
+        }
+        h1{
+            box-shadow: inset 3px 3px 30px  black;
+        }
+        header{
+            margin: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            box-shadow: 1px 1px 1px 1px rgb(33, 32, 32);
+        }
+        nav > a{
+            margin-right: 10px;
+            text-decoration: none;
+            color: chartreuse;
+            
+        }
+        nav > a:hover{
+            color: azure;
+        }
+        section{
+            background-color: black;
+            border: solid 1px white;
+            margin: 10px;
+            padding: 10px;
+        }
+        #noticias{
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+        }
+        article{
+            border-top: 5px solid rgb(49, 41, 41);
+            border-bottom: 5px solid rgb(49, 41, 41);
+            margin-top: 20px;
+            border-top-right-radius: 20px;
+        }
+        aside{
+            background-color: brown;
+            padding: 5px;
+            margin-bottom: 20px;
+            border-radius: 20px 0px;
+            box-shadow: 3px 4px 8px 3px #410404c7;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+            color: chartreuse;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        footer> p {
+            margin: 0;
+        }
+        #bola{
+            border-radius: 50%;
+            background-color: blueviolet;
+            height: 100px;
+            width: 100px;
+            margin: 10px auto 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+        
+    </header>
+            <main>
+                <section id="assuntos">Esportes Política Tecnologia</section>
+                <section id="noticias">
+                    <article>
+                        <h2>Notícias sobre o Brasil</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta sapiente cupiditate corporis officia praesentium saepe quas aut impedit in minus architecto enim nobis rerum officiis distinctio dolores quod ad.</p>
+                        <aside><p>Artigo escrito por José da Silva</p></aside>
+                    </article>
+                    <article><h2>Notícia 2</h2></article>
+                </section>
+            </main>
+            <footer><p>Desenvolvido pelo CursoemVideo</p></footer>
+            <div id="bola"></div>
+
+</body>
+</html>
