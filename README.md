@@ -1,5 +1,4 @@
-# html-css
- Pasta de estudo de html e css
+Exercícios resolvidos durante o curso de  Html e css do canal Curso em Vídeo
 
 Estou aprendendo a criar sites e agora irei gerenciar os repositórios.
 
